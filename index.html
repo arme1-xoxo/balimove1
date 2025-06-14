@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaliMove Services</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="row1.css">
+    <link rel="stylesheet" href="row2.css">
+    <link rel="stylesheet" href="row3.css">
+    <link rel="stylesheet" href="row4.css">
+    <link rel="stylesheet" href="footer.css">     
+</head>
+<body>
+    <!-- Header / Navigation Bar -->
+    <header class="navbar">
+        <div><img src="img/logo.png" class="navlogo"></div>
+        <button class="menu-toggle" aria-label="Toggle menu">
+            &#9776;
+        </button>
+        <nav>              
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('header.navbar nav');
+        menuToggle.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>
+
+    <!-- Row 1 - Hero Section -->
+    <section class="row1">
+        <div class="hero-text">
+            <h2>Move it right. Move it with </h2><h1>BaliMove Services</h1>
+            <div class="buttons">
+                <button class="router">Route Request</button>
+                <button>Discover</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="img/boxman.png" alt="Truck in warehouse">
+        </div>
+    </section>
+
+
+    <!-- Row 2 - Services -->
+    <section class="row2">
+        <h2 class="head">Looking for Reliable Moving Solutions?</h2>
+        <p>Discover our wide range of professional transport and logistics services tailored for every need.</p>
+        <div class="services">
+            <div class="service">
+                <div class="square">
+                    <img src="img/lipatbahay.jpg" alt="Household Transfer">
+                </div>
+                <h2>Household Transfer</h2>
+                <p>Quick and safe home moving with packing, loading and unloading handled by our expert team.</p>
+                <button class="router">More Details</button>
+            </div>
+
+            <div class="service">
+                <div class="square">
+                    <img src="img/transoffice.jpg" alt="Office  Transfer">
+                </div>
+                <h2>Office  Transfer</h2>
+                <p>Smooth and organized office relocations with minimal disruption to your business.</p>
+                <button class="router">More Details</button>
+            </div>
+
+            <div class="service">
+                <div class="square">
+                    <img src="img/warehouse.jpg" alt="Warehouse  Transfer">
+                </div>
+                <h2>Warehouse  Transfer</h2>
+                <p>Secure transport of goods, inventory, or equipment between warehouses or locations.</p>
+                <button class="router">More Details</button>
+            </div>
+
+            <div class="service">
+                <div class="square">
+                    <img src="img/foodtruck.jpeg" alt="Events Transport">
+                </div>
+                <h2>Events Transport</h2>
+                <p>Timely delivery of catering tools, event setups, and equipment for any occasion.</p>
+                <button class="router">More Details</button>
+            </div>
+
+            <div class="service">
+                <div class="square">
+                    <img src="img/trucking.webp" alt="Trucking Services">
+                </div>
+                <h2>Trucking Services</h2>
+                <p>Reliable trucking for light to heavy cargo across cities or provinces.</p>
+                <button class="router">More Details</button>
+            </div>
+        </div>
+          </section>
+
+    <!-- Row 3 - Why Choose Us -->
+    <section class="row3">
+        <h1>Why Choose Our Shipping Service</h1>
+        <div class="row3wrapper">
+            <div>
+                 <img src="img/safe.png" class="logo" />
+                <ul>
+                    <li>Our trucks are well-maintained and our drivers trained to handle your cargo with care.</li>
+                </ul>
+            </div>
+            <div>
+                <img src="img/time.png" class="logo" />
+                <ul>
+                    <li>Our trucks are well-maintained and our drivers trained to handle your cargo with care.</li>
+                </ul>
+            </div>
+            <div>
+                <img src="img/dollar.png" class="logo" />
+                <ul>
+                    <li>Quality doesn't have to cost a fortune. We offer competitive pricing without hidden charges.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Row 4 - Customer Reviews -->
+<section class="row4">
+  <h2>Customer Reviews</h2>
+  <div class="reviews">
+
+    <div class="review">
+      <div class="reviewer-info">
+        <div class="reviewer-logo">A</div> 
+        <div class="stars">★★★★★</div> 
+      </div>
+      <p>“Fast and reliable service! BaliMove helped me deliver materials to my construction site without delays. Highly recommended!”</p>
+      <div class="author">– Engr. R. Mendoza</div>
+    </div>
+
+    <div class="review">
+      <div class="reviewer-info">
+        <div class="reviewer-logo">A</div> 
+        <div class="stars">★★★★★</div> 
+      </div>
+      <p>“Great communication and always on time. They’ve become our go-to trucking provider.”</p>
+      <div class="author">– M. Santos, Local Business Owner</div>
+    </div>
+
+    
+    <div class="review">
+      <div class="reviewer-info">
+        <div class="reviewer-logo">A</div> 
+        <div class="stars">★★★★★</div> 
+      </div>
+      <p>“Very professional driver and clean trucks. Will book again!”</p>
+      <div class="author">– J. Delos Reyes</div>
+    </div>
+
+  </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>Contact Information</h4>
+                <ul>
+                    <li>📞 09494023110</li>
+                    <li>📧 <a href="mailto:Balingasag@balimove.com">Balingasag@balimove.com</a></li>
+                    <li>📍 Brgy. 1, Balingasag, Misamis Oriental</li>
+                    <li>🕒 Mon–Sat, 8:00 AM to 6:00 PM</li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                   <a href="#"><img src="img/fb-removebg-preview.png" alt="Facebook" /></a>
+                    <a href="#"><img src="img/insta-removebg-preview.png" alt="Instagram" /></a>
+                    <a href="#"><img src="img/twi.jpg" alt="Twitter" /></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 BaliMove Services. All rights reserved.</p>
+        </div>
+    </footer>
+</body>

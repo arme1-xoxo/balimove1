@@ -1,0 +1,146 @@
+/* Row 3 - Why Choose Our Shipping Service */
+.row3 {
+    padding: 80px 5%;
+    background-color: #f1f5f9;
+    text-align: center;
+    background: url("C:\Users\SRCB-IT-ADMIN\Documents\gege\ArmeSite\img\truck.png") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.services-info {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 900px;
+    margin: 40px auto;
+    color: #333;
+    text-align: left;
+}
+
+.cta-box {
+    padding: 20px 30px;           
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 30px auto;
+    color: #333;
+    text-align: center;
+}
+
+.services-info h3 {
+    color: #222;
+    margin-top: 0;
+}
+
+.services-info ul {
+    padding-left: 20px;
+}
+
+.services-info ul li {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.row3 .services-info, .row3 .cta-box {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 900px;
+    width: 100%;
+    color: #333;
+    text-align: left;
+}
+
+.row3 .services-info h3 {
+    color: #222;
+    margin-top: 0;
+}
+
+.row3 .services-info ul {
+    padding-left: 20px;
+}
+
+.row3 .services-info ul li {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.row3 .cta-box h3 {
+    margin-top: 0;
+    font-size: 1.8rem;
+}
+
+.row3 .cta-box p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.row3 .cta-box button.router {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.row3 .cta-box button.router:hover {
+    background-color: #0056b3;
+}
+
+.row3 h1 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.row3wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.row3wrapper > div {            
+    display: flex;
+    align-items: flex-start;
+    border-radius: 10px;
+    width: 60%;
+    box-sizing: border-box;
+    text-align: left;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 30px;
+    flex-shrink: 0;
+}
+
+.row3 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.row3 li {
+    font-size: 1.5rem;
+    color: white;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+    .row3wrapper > div {
+        width: 100%;
+    }
+}

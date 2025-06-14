@@ -1,0 +1,90 @@
+/* Row 2 - Services Section */
+.row2 {
+    padding: 60px 5%;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.head {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.row2 p {
+    font-size: 2rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);             
+    justify-items: center;          
+    gap: 50px 30px;
+}
+
+.service {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+@media (max-width: 992px) {
+    .services {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .services {
+        grid-template-columns: 1fr;
+    }
+    .service {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.service:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+
+
+.square {
+  width: 95%;
+  margin: 0 auto;
+  aspect-ratio: 1 / 1;
+  background-color: skyblue;
+}
+
+.square img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.service p{   
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 1rem;
+}
+.service button{
+    padding: 10px 20px;
+    background-color: rgb(4 105 218);
+    color: #003366;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 80%;
+}
